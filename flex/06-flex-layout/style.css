@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -24,4 +24,97 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* Solutions */
+
+/* ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  margin-right: auto;
+  gap: 15%;
+}
+.right-links {
+  margin-left: auto;
+  display: flex;
+  gap: 15%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 10px;
+}
+
+.footer {
+  background-color: #eee;
+  display: flex;
+  /* position: absolute;
+  bottom: 0px; */
+/* }
+
+.footer .left-links {
+  margin-right: auto;
+}
+
+.footer .right-links {
+  margin-left: auto;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
